@@ -164,7 +164,7 @@ Correctly setup older versions of R using Brian Ripley and Duncan Murdoch's Rtoo
   
 ### Testing gdbsource.win()
    
-On a Windows machine, put the 'simpleError.cpp' and 'simpleError.R' in the R_and_Cpp folder in this repo (and given below) into C:\TMB_Debug and then under R ver 4.2 run:
+On a Windows machine, put the 'simpleError.cpp' and 'simpleError.R' in the R_and_Cpp folder in this repo (and given below) into C:\TMB_Debug, and then under R ver 4.2 run:
    
     setwd('C:/TMB_Debug')
     library(TMB)
