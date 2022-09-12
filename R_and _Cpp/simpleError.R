@@ -25,3 +25,4 @@ obj <- MakeADFun(data=list(x=x, B=B, A=A),
                  silent=TRUE
                  )
 print(opt <- nlminb(obj$par, obj$fn, obj$gr))
+
