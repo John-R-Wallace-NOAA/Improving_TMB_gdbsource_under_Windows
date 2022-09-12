@@ -46,3 +46,4 @@ Type objective_function<Type>::operator() ()
 
   return ans;
 }
+
