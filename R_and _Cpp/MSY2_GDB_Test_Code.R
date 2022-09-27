@@ -1,5 +1,8 @@
 
 
+# This code fixes the pwd path issue with GDB (currently ver 11.1) installed with MSYS2 pacman, however the result does not
+# give a backtrace with line numbers 
+
 file <- 'simpleError.R'
 gdbscript <- tempfile()
 #  txt <- paste("unset environment\nset breakpoint pending on\nb abort\nrun --vanilla -f", file, "\nbt\n")
