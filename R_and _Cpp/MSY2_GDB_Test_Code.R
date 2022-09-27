@@ -10,6 +10,9 @@
 
 # Note that in GDB, the pwd path is set with 'cd' but looked with 'pwd'.
 
+# Perhaps with the correct compile options and different commands to gdb a proper backtrace with line numbers could be achieved.
+
+
 file <- 'simpleError.R'
 gdbscript <- tempfile()
 #  txt <- paste("unset environment\nset breakpoint pending on\nb abort\nrun --vanilla -f", file, "\nbt\n")
