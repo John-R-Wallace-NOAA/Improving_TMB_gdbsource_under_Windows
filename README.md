@@ -5,7 +5,9 @@ Instead of using Rtools 3.5 for ver 7.9.1 of GDB, the DOS batch file:
 
     gdb ver 10.2 from mingw64 ver 8.5.0 to rtools42.bat 
    
-in the 'R_and_CPP' folder (in this repo) gives information how to download and install GDB version 8.5.0 from winlibs.com. GCC 10.3.0 also contains GDB version 8.5.0. The more recent GCC versions do contain later versions of GDB, but they are more complexly intergrated into the release. This GDB ver 8.5.0 properly gives the backtrace with line number information when using the compile options given in the help for TMB::gdbsource().
+in the 'R_and_CPP' folder (in this repo) gives information how to download and install GDB version 8.5.0 from winlibs.com. GCC 10.3.0 also contains GDB version 8.5.0. Also, the more recent GCC versions do contain later versions of GDB, but they are more complexly intergrated into the release. 
+
+This GDB ver 8.5.0 properly gives the backtrace with line number information when using the compile options given in the help for TMB::gdbsource().
 
 
 ---
