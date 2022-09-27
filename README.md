@@ -1,5 +1,15 @@
 ## Improving gdbsource() under Windows with Sys.which(), 'quit' in gdb, and Rtools 3.5
 
+### Update 26 Sep 2022
+Instead of using Rtools 3.5 for ver 7.9.1 of GDB, the DOS batch file:
+
+    gdb ver 10.2 from mingw64 ver 8.5.0 to rtools42.bat 
+   
+in the 'R_and_CPP' folder (in this repo) gives information how to download and install GDB version 8.5.0 from winlibs.com. GCC 10.3.0 also contains GDB version 8.5.0. The more recent GCC versions to contain later versions of GDB, but they are more complexly intergrated into the release.
+
+
+---
+
 With a clean install of CRAN R ver 4.2.1 and Rtools 4.2, without Rtools 3.5 installed, gdbsource() under Windows fails due to a missing gdb.exe. Jeroen Ooms took over maintaining Rtools for Windows R from Prof. Brian Ripley and Duncan Murdoch starting with Rtools 4.0, and neither Rtools 4.0 nor 4.2 have gdb.exe available: https://cran.r-project.org/bin/windows/Rtools/
 
 In 2021 Mark Bravington tried to add gdb to Rtools 4.0 under Windows without success: https://stat.ethz.ch/pipermail/r-devel/2021-April/080623.html . In response to the Mark's post (and as I independently discovered), Tomas Kalibera points out that Rtools 3.5 can still be used for gdb.exe (just copying over gdb.exe does not work).
